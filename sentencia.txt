@@ -1,0 +1,14 @@
+-------------------------------------------------------------------
+---------------  CREACION TABLA EN SAMPLE DB-----------------------
+-------------------------------------------------------------------
+CREATE TABLE TarjetaCreditoAlpes
+(
+    NUMERO_TARJETA INT PRIMARY KEY,    
+    NOMBRE_TITULAR VARCHAR(255),
+    BANCO VARCHAR(255),
+    CUPO DOUBLE,
+    FECHA_EXPEDICION DATE,
+    FECHA_VENCIMIENTO DATE
+);
+-------------------------------------------------------------------
+-------------------------------------------------------------------
